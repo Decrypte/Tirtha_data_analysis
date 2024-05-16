@@ -12,7 +12,7 @@ import pandas as pd
 import numpy as np
 from utils import config, helpers
 from login_adventus import login_adventus
-from extraction import get_info, page_change
+from adventus.data_extraction import get_info, page_change
 
 
 def navigate_to_course_finder(driver):
@@ -28,7 +28,7 @@ def navigate_to_course_finder(driver):
     helpers.handle_notification(driver)
 
 
-def find_colleges(driver):
+def find_colleges(driver, state_to_select):
     try:
         print("Waiting for the page to fully load...")
         WebDriverWait(driver, 30).until(
@@ -105,7 +105,7 @@ def find_colleges(driver):
             )
         ).click()
 
-        time.sleep(20)
+        time.sleep(5)
 
     except Exception as e:
         import traceback
@@ -118,31 +118,34 @@ if __name__ == "__main__":
     driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()))
     try:
         login_adventus(driver, config.email, config.password)
-        navigate_to_course_finder(driver)
-        find_colleges(driver)
+        for state in config.states[:]:  # Adjust according to your needs
+            navigate_to_course_finder(driver)
+            find_colleges(driver, state)
 
-        all_data = []
-        while True:
-            current_html = driver.page_source
-            page_data = get_info(current_html)
-            if page_data:
-                all_data.extend(page_data)
-                print("Data extracted from current page.")
+            all_data = []
+            while True:
+                current_html = driver.page_source
+                page_data = get_info(current_html, state)
+                if page_data:
+                    all_data.extend(page_data)
+                    print("Data extracted from current page.")
+                else:
+                    print("No data found on current page.")
+
+                if not page_change(driver):
+                    break
+
+            if all_data:
+                data = pd.DataFrame(all_data)
+                data.replace("", np.nan, inplace=True)
+                data.dropna(how="all", inplace=True)
+                filename = f"{state} Data.csv"
+                data.to_csv(f"D:\\#Data\\Scraped Data\\Adventus\\{filename}", index=False)
+                print("Data saved.")
             else:
-                print("No data found on current page.")
+                print("No scraped data to save.")
 
-            if not page_change(driver):
-                break
-
-        if all_data:
-            data = pd.DataFrame(all_data)
-            pd.set_option("future.no_silent_downcasting", True)
-            data.replace("", np.nan, inplace=True)
-            data.dropna(how="all", inplace=True)
-            filename = "collected_data_0.csv"
-            data.to_csv(f"D:\\#Data\\Scraped Data\\{filename}", index=False)
-            print("Data saved.")
-        else:
-            print("No scraped data to save.")
+    except Exception as e:
+        print(f"An error occurred: {e}")
     finally:
         driver.quit()

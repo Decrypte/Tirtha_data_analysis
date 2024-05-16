@@ -1,0 +1,113 @@
+--UNDER GRADUATE
+-------------BACHELOR OF SCIENCE
+------------------------BACHELOR OF SCIENCE
+-------------BACHELOR OF ARTS
+------------------------BACHELOR OF ARTS
+------------------------SHASHTRI
+-------------BACHELOR OF BUSINESS ADMINISTRATION
+------------------------B.S.(BBA)
+------------------------BACHELOR OF BUSINESS ADMINISTRATION
+-------------BACHELOR OF COMMERCE
+------------------------BACHELOR OF COMMERCE
+-------------OTHER BACHELOR COURSE
+------------------------BACHELOR MUSIC AND DANCE
+------------------------BACHELOR OF APPLIED ARTS
+------------------------BACHELOR OF ARCHITECTURE
+------------------------BACHELOR OF BUSINESS ADMINISTRATION
+------------------------BACHELOR OF DESIGN
+------------------------BACHELOR OF ENGINEERING
+------------------------BACHELOR OF FINE ARTS
+------------------------BACHELOR OF INTERIOR DESIGN
+------------------------BACHELOR OF JOURNALISM AND MASS COMMUNICATION
+------------------------BACHELOR OF OCCUPATIONAL THERAPY
+------------------------BACHELOR OF PERFORMING ARTS
+------------------------BACHELOR OF PHYSICAL EDUCATION
+------------------------BACHELOR OF PHYSICAL EDUCATION & SPORT
+------------------------BACHELOR OF PHYSIOTHERAPY
+------------------------BACHELOR OF RURAL STUDIES
+------------------------BACHELOR OF SOCIAL WORK
+------------------------BACHELOR OF VISUAL ARTS
+------------------------BACHELOR OF VOCATION
+------------------------BACHELOR OF VOCATIONAL STUDIES
+------------------------BACHELORS OF HOTEL & TOURISM MANAGEMENT
+------------------------POST BASIC BACHELOR OF SCIENCE
+-------------BACHELOR OF COMPUTER APPLICATION
+------------------------B.S.(BCA)
+------------------------BACHELOR OF COMPUTER APPLICATION
+--POST GRADUATE
+-------------BACHELOR OF LIBRARY & INFORMATION SCIENCE
+------------------------BACHELOR OF LIBRARY & INFORMATION SCIENCE
+-------------MASTER OF ARTS
+------------------------ACHARYA
+------------------------MASTER OF ARTS
+-------------MASTER OF BUSINESS ADMINISTRATION
+------------------------MASTER OF BUSINESS ADMINISTRATION
+-------------MASTER OF COMMERCE
+------------------------MASTER OF COMMERCE
+-------------MASTER OF SCIENCE
+------------------------MASTER OF SCIENCE
+-------------POST GRADUATE DIPLOMA
+------------------------ADVANCED POST GRADUATE DIPLOMA
+------------------------POST GRADUATE DIPLOMA
+-------------OTHER MASTER COURSE
+------------------------MASTER IN DEVELOPMENT COMMUNICATION
+------------------------MASTER OF BUSINESS ADMINISTRATION
+------------------------MASTER OF COMPUTER APPLICATION
+------------------------MASTER OF DESIGN
+------------------------MASTER OF HOME SCIENCE
+------------------------MASTER OF HOSPITAL MANAGEMENT
+------------------------MASTER OF HUMAN RESOURCE MANAGEMENT
+------------------------MASTER OF INTERIOR DESIGN
+------------------------MASTER OF JOURNALISM AND MASS COMMUNICATION
+------------------------MASTER OF LABOUR WELFARE
+------------------------MASTER OF LIBRARY & INFORMATION SCIENCE
+------------------------MASTER OF MANAGEMENT STUDIES
+------------------------MASTER OF OCCUPATIONAL THERAPY
+------------------------MASTER OF OPTOMETRY
+------------------------MASTER OF PERFORMING ARTS
+------------------------MASTER OF PHARMACY
+------------------------MASTER OF PHYSICAL EDUCATION
+------------------------MASTER OF PHYSIOTHERAPY
+------------------------MASTER OF PUBLIC ADMINISTRATION
+------------------------MASTER OF RURAL STUDIES
+------------------------MASTER OF SOCIAL WORK
+------------------------MASTER OF URBAN AND REGIONAL PLANNING
+------------------------MASTER OF VISUAL ARTS
+------------------------MASTER OF VOCATION
+--DOCTOR OF PHILOSOPHY
+-------------DOCTOR OF PHILOSOPHY
+------------------------DOCTOR OF PHILOSOPHY
+--DIPLOMA AND CERTIFICATE COURSES
+-------------CERTIFICATE COURSE
+------------------------CERTIFICATE COURSE
+-------------VISHARAD
+------------------------VISHARAD
+-------------DIPLOMA AND CERTIFICATE COURSES
+------------------------BEGINNERS CERTIFICATE COURSE
+------------------------CERTIFICATE COURSE
+------------------------CERTIFICATE OF PROFICIENCY
+------------------------DIPLOMA
+------------------------INTERMEDIATE CERTIFICATE COURSE
+--INTEGRATED COURSES
+-------------INTEGREATED COURSES
+------------------------INTEGRATED BACHELOR OF EDUCATION
+------------------------INTEGRATED BACHELOR OF LAW
+------------------------INTEGRATED MASTER OF BUSINESS ADMINISTRATION
+------------------------INTEGRATED MASTER OF COMMERCE
+------------------------INTEGRATED MASTER OF COMPUTER APPLICATION
+------------------------INTEGRATED MASTER OF EDUCATION
+------------------------INTEGRATED MASTER OF RURAL STUDIES
+------------------------INTEGRATED MASTER OF SCIENCE
+------------------------INTEGRATED MASTER OF SCIENCE IN INFORMATION TECHNOLOGY
+------------------------INTEGRATED MASTER OF SOCIAL WORK
+--LAW
+-------------BACHELOR OF LAW
+------------------------BACHELOR OF LAW
+-------------MASTER OF LAW
+------------------------MASTER OF LAW
+--EDUCATION
+-------------BACHELOR OF EDUCATION
+------------------------BACHELOR OF EDUCATION
+------------------------SHIKSHA SHASHTRI
+-------------MASTER OF EDUCATION
+------------------------MASTER OF EDUCATION

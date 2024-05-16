@@ -15,7 +15,7 @@ password = config.password
 def login_adventus(driver, email, password):
     driver.get("https://app.adventus.io/admin/login")
 
-    WebDriverWait(driver, 20).until(
+    WebDriverWait(driver, 30).until(
         lambda d: d.execute_script("return document.readyState") == "complete"
     )
 
@@ -41,7 +41,7 @@ def login_adventus(driver, email, password):
     )
 
     # Click the login button
-    login_button = WebDriverWait(driver, 20).until(
+    login_button = WebDriverWait(driver, 30).until(
         EC.element_to_be_clickable((By.XPATH, '//button[contains(text(), "Log in")]'))
     )
     login_button.click()
